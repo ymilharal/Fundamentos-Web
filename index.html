@@ -5,29 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="https://github.com/ymilharal" target = "_blank">Portifolio</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="redessociais.html">Redes Sociais</a></li>
-    </ul>
-    <h1>Sobre a Yasmim</h1>
-
-    <p>
-        Olá bem vindos, se chegaram até aqui é porque estão interessados em saber da minha pessoa! Que bacana, eu me sinto
-        lisongeada (é assim que escreve?), bom eu tenho 20 anos faltam apenas 34 dias para eu completar 21 anos!!! 
-    </p>  
-    <p>
-        Eu sou estudante de desenvolvimento web e estou adorando tudo que estou aprendendo
-        tenho uma filha de 1 ano e 6 meses chamada Ayla e cada dia é uma surpresa pra mim, orbigada pelo seu tempo.
-    </p>
-    <img src="assets/img/186459627_2257749967689906_1416145578151489720_n.jpg" alt="Foto do criador do conteudo">
-    <img src="assets/img/130696781_2125855584212679_7234377096260815166_n.jpg" alt="Foto da Ayla, filha da criadora">
-    <p>Essa sou eu 😊 > Essa é a Ayla 👶🏻 </p>
-
-    <h2> 🎶 Minha música preferida: 🎶</h2>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html" class='links'>Home</a></li>
+            <li><a href="https://github.com/ymilharal" class='links' target = "_blank">Portifolio</a></li>
+            <li><a href="contato.html" class='links'>Contato</a></li>
+            <li><a href="redessociais.html" class='links'>Redes Sociais</a></li>
+        </ul>
+        </nav>
+    <h1 class="center">Sobre a Yasmim</h1>
+    <div class="container">
+        <div> 
+            <img class="arrumar2 altlarg arrumar" src="assets/img/Screenshot_44.png" alt="Foto do criador do conteudo e sua filha">
+        </div>
+        <div class="arrumar">
+            <p class="texto">
+                Olá bem vindos, se chegaram até aqui é porque estão interessados em saber da minha pessoa! Que bacana, eu me sinto
+                lisongeada (é assim que escreve?), bom eu tenho 20 anos faltam apenas 34 dias para eu completar 21 anos!!! 
+            </p>  
+            <p class="texto">
+                Eu sou estudante de desenvolvimento web e estou adorando tudo que estou aprendendo
+                tenho uma filha de 1 ano e 6 meses chamada Ayla e cada dia é uma surpresa pra mim, orbigada pelo seu tempo.
+            </p>
+        </div>
+    </div>
+    <h2 class="center"> 🎶 Minha música preferida: 🎶</h2>
+    <div class="container espaco">
     <iframe width="460"
     height="300"
     src="https://www.youtube.com/embed/K4DyBUG242c"
@@ -36,5 +42,29 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
     picture-in-picture"
     allowfullscreen></iframe>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/ymilharal" target="_blank">
+                <img class="social arrumar" src="assets/img/github.png" alt="Logo do github">
+            </a>
+            <a href="https://www.instagram.com/yaslirio/" target="_blank">
+                <img class="social arrumar" src="assets/img/instagram.png" alt="Logo do instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/yasmim-marques-santos-66a119225/" target="_blank">
+                <img class="social arrumar" src="assets/img/linkedin.png" alt="Logo do linkedin">
+            </a>
+            <a href="https://www.facebook.com/Yasunicorn/" target="_blank">
+                <img class="social arrumar" src="assets/img/facebook.png" alt="Logo do facebook">
+            </a>
+            <a href="https://twitter.com/ymilharal" target="_blank">
+                <img class="social arrumar" src="assets/img/twitter.png" alt="Logo do twitter">
+            </a>
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Yasmim Marques &copy;
+        </p>
+    </footer>
 </body>
 </html>
