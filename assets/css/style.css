@@ -10,13 +10,16 @@
 .links {
     font-size: 20px;
     text-decoration: none;
-    color: rgb(5, 4, 4);
+    color: rgb(107, 31, 54);
 }
 .links:hover{
     text-decoration: underline;
-    color: rgb(64, 139, 139);
+    color: rgb(165, 76, 98);
 }
+body{
+    background-image: linear-gradient( 179.7deg,  rgba(252,123,123,1) -0.9%, rgba(255,187,147,1) 15.6%, rgba(252,169,245,1) 32.6%, rgba(251,253,134,1) 51.2%, rgba(150,254,179,1) 68.9%, rgba(157,164,253,1) 84.2%, rgba(202,130,253,0.98) 101.4% );
 
+}
 form {
     display: flex;
     flex-direction: column;
@@ -35,6 +38,7 @@ form {
     font-size: 1.275rem;
     font-weight: bold;
     margin-bottom: 5px;
+    color: #6d44a3;
 }
 
 .campo input, .campo textarea {
@@ -42,6 +46,7 @@ form {
     font-size: 1.5rem;
     border: 0;
     border-bottom: 1px solid #945eda;
+    background: transparent;
 }
 
 button {
@@ -52,6 +57,7 @@ button {
     border: 2px solid #945eda;
     background: transparent;
     transition: 0.5s;
+    color: #492c6e;
 }
 
 button:hover {
@@ -88,7 +94,12 @@ button:hover {
 }
 .texto{
     text-align: justify;
+    font-size: large;
+    color:#47131e;
 }
 .margem50{
     margin-left: 50px;
+}
+.cor{
+    color: #96122e;
 }
