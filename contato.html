@@ -22,17 +22,20 @@
             <form>
                 <div class="campo">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id='txtNome'></div>
             </div>
             <div class="campo">
                 <label for="email">E-mail:</label>
-                <input type="email" id="email">
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id='txtEmail'></div>
             </div>
                 <div class="campo">
                 <label for="assunto">Assunto:</label>
-                <textarea name="assunto" id="assunto" cols="50" rows="4"></textarea>
+                <textarea name="assunto" id="assunto" cols="50" rows="4" onkeyup="validaAssunto()"></textarea>
+                <div id='txtAssunto'></div>
             </div>
-                <button>Enviar</button>
+                <button onclick="enviar()">Enviar</button>
             </form>
         </div>
         <div class="margem50">
@@ -44,8 +47,8 @@
             37846678535856!3d-23.821502677134752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
             1!3m3!1m2!1s0x94d2914c506e0ce9%3A0xc8674a2dfd0c2838!2sILHABELA%20-%20SP!5e0!3m2!1spt-
             BR!2sbr!4v1641838475195!5m2!1spt-BR!2sbr"
-            width="400" height="250" style="border:0;" allowfullscreen=""
-            loading="lazy"></iframe>
+            width="400" height="250" frameborder='0' style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0" onmousemove='mapaZoom()' onmouseout='mapaNormal()' id="mapa"></iframe>
         </div>
     </div>
     <hr>
@@ -71,5 +74,7 @@
             Todos os direitos reservados: Yasmim Marques &copy;
         </p>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
